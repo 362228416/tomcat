@@ -4,7 +4,7 @@ FROM anapsix/alpine-java:jre8
 RUN wget -O /etc/localtime https://github.com/362228416/tomcat/raw/master/Shanghai
 
 ENV TOMCAT=apache-tomcat  \
-    TOMCAT_VERSION=8.0.33 \
+    TOMCAT_VERSION=8.0.36 \
     JAVA_OPTS='-server -Duser.timezone=Asia/Shangha' \
     CATALINA_HOME=/tomcat
     

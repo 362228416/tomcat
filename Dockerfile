@@ -1,8 +1,7 @@
 FROM anapsix/alpine-java:jre8 
 
 # China time
-#RUN wget -O /etc/localtime http://github.com/362228416/tomcat/raw/master/Shanghai
-#RUN ADD /Shanghai /etc/localtime
+RUN wget -O /etc/localtime http://github.com/362228416/tomcat/raw/master/Shanghai
 
 ENV TOMCAT=apache-tomcat  \
     TOMCAT_VERSION=8.0.36 \

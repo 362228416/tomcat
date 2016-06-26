@@ -1,5 +1,5 @@
 # Tomcat
-此镜像基于anapsix/alpine-java:jre8，用的是Oracle server jre8，tomcat-8.0.33，构建完只有158M，解决了国内使用的时区问题，可以在开发或生产环境中使用
+此镜像基于anapsix/alpine-java:jre8，用的是Oracle server jre8，tomcat-8.0.36，构建完只有158M，解决了国内使用的时区问题，可以在开发或生产环境中使用
 
 ### 运行命令
 ```
